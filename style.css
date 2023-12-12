@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 0.5px;
+    outline: none;
+}
+
+body {
+    font-size: 100%;
+    background: radial-gradient(circle, rgba(102, 208, 255, 1) 0%, rgba(67, 181, 255, 1) 35%, rgba(36, 114, 255, 1) 100%);
+    width: 100%;
+}
+
+.container {
+    background: #ffffff33;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+    color: rgb(59, 59, 59);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    width: 600px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho input {
+    border: none;
+    background: #ffffff33;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+    outline: none;
+    color: rgb(59, 59, 59);
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.cabecalho input::placeholder {
+    color: rgb(59, 59, 59);
+}
+
+.localizacao {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.geral {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo1 {
+    text-align: center;
+}
+
+.icone img {
+    width: 160px;
+}
+
+.temperatura {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.min-max {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.min-max p {
+    font-size: 20px;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 30px;
+    margin-top: 45px;
+}
+
+.espaco {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 160px;
+    height: 65px;
+    border-radius: 10px;
+    background: #ffffff33;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.espaco img {
+    width: 33px;
+}
+
+.espaco p {
+    font-size: 17px;
+}
+
+.assinatura {
+    padding-top: 30px;
+    font: italic 14px 'Heebo', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.assinatura img {
+    width: 12px;
+    margin-left: 5px;
+}

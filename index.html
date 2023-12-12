@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Olá, seja bem-vindo(a)! Essa é minha aplicação de clima!">
+    <link rel="stylesheet " href="style.css">
+    <title>Clima</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="cabecalho">
+            <form class="pesquisa">
+                <input type="text" placeholder="Insira uma cidade...">
+            </form>
+        </div>
+        <div class="localizacao"></div>
+        <div class="geral">
+            <div class="conteudo1">
+                <div class="icone"></div>
+                <div class="temperatura"></div>
+                <div class="min-max"></div>
+            </div>
+            <div class="conteudo2">
+                <div class="espaco">
+                    <img src="img/sensacao.png">
+                    <div>
+                        <p>Sensação</p>
+                        <p class="sensacao-termica"></p>
+                    </div>
+                </div>
+                <div class="espaco">
+                    <img src="img/umidade.png">
+                    <div>
+                        <p>Umidade</p>
+                        <p class="umidade"></p>
+                    </div>
+                </div>
+                <div class="espaco">
+                    <img src="img/vento.png">
+                    <div>
+                        <p>Vento</p>
+                        <p class="vento"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="assinatura">
+        <p>Feito com amor by Bia Polletti <img src="img/coracao.png"></p>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
